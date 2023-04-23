@@ -1,8 +1,11 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Users = () => {
   return (
-    <div>This is Users component!</div>
+    <div className="users">
+      <Outlet />
+    </div>
   )
 };
 
