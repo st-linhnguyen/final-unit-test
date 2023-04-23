@@ -11,7 +11,8 @@ import UserDetail from '../components/UserDetail';
 
 export const DUMMY_USER = {
   id: 1,
-  name: 'Manh Le'
+  name: 'Linh Nguyen D.Q.',
+  email: 'linh.nguyen@supremetech.vn'
 };
 
 const API_ENDPOINT = `${GET_USERS_API_ENDPOINT}/${DUMMY_USER.id}`;
